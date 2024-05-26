@@ -36,7 +36,7 @@ class Site:
         self.pdf_string01 = ''
         self.temp_pdf_file = ''
         with st.container():  # Cabeçalho da página
-            st.subheader("DECODIFICADOR DE PDF EM BASE64111")
+            st.subheader("DECODIFICADOR DE PDF EM BASE64")
             st.write("Preencha os campos abaixo para ter seu PDF decodificado")
 
         with st.container():  # Campo para preencher
